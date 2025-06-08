@@ -9,6 +9,15 @@ https://mailinabox.email/
 https://contabo.com/blog/linux-mail-server-setup-and-configuration/  
 https://turso.tech/blog/write-your-own-email-server-in-rust-36f4ff5b1956  
 
+
+    Secure environment (up-to-date OS, packages, security-hardened config, strict firewall, fail2ban etc.)
+    Filter incoming and outgoing mail with rspamd, ClamAV, olefy, DNSBLs or similar tools
+    Use SPF, DKIM signatures, DMARC reporting, DANE/TLSA records, MTA-STS policy and monitor reports regularly to ensure correct implementation. Also configure rDNS.
+    Fully deploy DNSSEC to own domain and run a resolver that strictly checks it on your server (otherwise DANE checks do not make sense anyway)
+    Run some light monitoring of server itself, DNS entries etc. from external to ensure everything is running stable
+    Make it obvious for operators of other networks how to contact you in case of abuse etc., even if you would never send any spam
+
+
 - Model Ingestion
 - MCP
 - Envelope Encryption
