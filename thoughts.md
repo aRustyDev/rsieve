@@ -54,9 +54,26 @@
 - Data Keys
   - body, header, tags, address, envelope, signature
 
-```
+```rust
+
+const myList = ["a", "b", "c"];
+
+fn doSomething() {
+  fileinto "abc"
+}
+
 if (test) {
   let bar = foo();
-  
+} elif (test2) {
+  let foo = bar();
+}
+
+match header.from {
+  "a":
+    doSomething();
+  "b":
+    doSomethingElse();
+  _:
+    stop
 }
 ```
