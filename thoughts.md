@@ -5,6 +5,9 @@
 https://dev.to/biswasprasana001/building-an-email-server-components-and-how-they-interact-5fg8  
 https://mailserverguru.com/email-server/  
 https://www.xmox.nl  
+https://mailinabox.email/  
+https://contabo.com/blog/linux-mail-server-setup-and-configuration/  
+https://turso.tech/blog/write-your-own-email-server-in-rust-36f4ff5b1956  
 
 - Model Ingestion
 - MCP
