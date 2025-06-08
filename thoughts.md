@@ -2,6 +2,9 @@
 
 ## Email Server Functions
 
+https://dev.to/biswasprasana001/building-an-email-server-components-and-how-they-interact-5fg8
+https://www.xmox.nl
+
 - Model Ingestion
 - MCP
 - Envelope Encryption
